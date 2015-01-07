@@ -25,5 +25,5 @@ set background=dark
 " Indentation
 " -----------
 set noexpandtab " Always use tabs
-set tabstop=1
-set shiftwidth=1
+set tabstop=4
+set shiftwidth=4
