@@ -36,3 +36,10 @@ map <F7> :cprev<CR>zz
 map <F8> :cnext<CR>zz
 map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
 "map <F5> :e %:p:s,.h$,.X123X,:s,.c$,.h,:s,.X123X$,.c,<CR>
+" When editing a file, always jump to the last cursor position
+autocmd BufReadPost *
+\ if ! exists("g:leave_my_cursor_position_alone") |
+\ if line("'\"") > 0 && line ("'\"") <= line("$") |
+\ exe "normal g'\"" |   
+\ endif |       
+\ endif
