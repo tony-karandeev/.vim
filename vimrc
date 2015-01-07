@@ -3,7 +3,6 @@
 " --------
 filetype off " Pathogen needs to run before plugin indent on
 execute pathogen#infect()
-syntax on
 filetype plugin indent on
 
 " ------
@@ -19,6 +18,8 @@ set hlsearch " Highlight search items
 " ------------
 syntax on " Highlight syntax
 set hlsearch " Highlight search items
+colorscheme solarized
+set background=dark
 
 " -----------
 " Indentation
