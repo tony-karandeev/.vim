@@ -34,3 +34,5 @@ set shiftwidth=4
 set grepprg=grep\ -r\ --exclude=tags\ -n\ $*\ /dev/null
 map <F7> :cprev<CR>zz
 map <F8> :cnext<CR>zz
+map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
+"map <F5> :e %:p:s,.h$,.X123X,:s,.c$,.h,:s,.X123X$,.c,<CR>
