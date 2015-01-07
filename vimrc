@@ -1,3 +1,11 @@
+" --------
+" Pathogen
+" --------
+filetype off " Pathogen needs to run before plugin indent on
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
 " ------
 " Search
 " ------
