@@ -1,3 +1,6 @@
 [submodule "bundle/solarized"]
 	path = bundle/solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/solarized-terminal"]
+	path = bundle/solarized-terminal
+	url = https://github.com/tomislav/osx-terminal.app-colors-solarized.git
