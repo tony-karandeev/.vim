@@ -31,6 +31,7 @@ set shiftwidth=4
 " ----------
 " Navigation
 " ----------
+set scrolloff=5
 set grepprg=grep\ -r\ --exclude=tags\ -n\ $*\ /dev/null
 map <F7> :cprev<CR>zz
 map <F8> :cnext<CR>zz
