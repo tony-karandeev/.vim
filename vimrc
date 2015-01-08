@@ -44,3 +44,6 @@ autocmd BufReadPost *
 \ exe "normal g'\"" |   
 \ endif |       
 \ endif
+
+set wildmenu
+set wildmode=list:longest
