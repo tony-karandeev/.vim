@@ -5,6 +5,11 @@ filetype off " Pathogen needs to run before plugin indent on
 execute pathogen#infect()
 filetype plugin indent on
 
+" --------
+" NERDTree
+" --------
+autocmd vimenter * NERDTree " Start NERDTree automatically when Vim starts
+
 " ------
 " Search
 " ------
