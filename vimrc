@@ -47,3 +47,9 @@ autocmd BufReadPost *
 
 set wildmenu
 set wildmode=list:longest
+
+" Disable navigation by arrows
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
