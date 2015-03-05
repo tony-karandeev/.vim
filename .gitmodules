@@ -4,6 +4,3 @@
 [submodule "bundle/solarized-terminal"]
 	path = bundle/solarized-terminal
 	url = https://github.com/tomislav/osx-terminal.app-colors-solarized.git
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
