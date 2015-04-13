@@ -8,7 +8,7 @@ filetype plugin indent on
 " --------
 " NERDTree
 " --------
-autocmd vimenter * NERDTree " Start NERDTree automatically when Vim starts
+"autocmd vimenter * NERDTree " Start NERDTree automatically when Vim starts
 
 " ------
 " Search
