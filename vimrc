@@ -52,3 +52,6 @@ autocmd BufReadPost *
 
 set wildmenu
 set wildmode=list:longest
+
+" Let ctags search for tags file in file's directory and all parent directories
+set tags=./tags;
