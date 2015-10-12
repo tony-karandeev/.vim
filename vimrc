@@ -10,6 +10,11 @@ filetype plugin indent on
 " --------
 "autocmd vimenter * NERDTree " Start NERDTree automatically when Vim starts
 
+" -------
+" Airline
+" -------
+set laststatus=2 " Always show status line
+
 " ------
 " Search
 " ------
