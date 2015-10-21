@@ -15,6 +15,18 @@ filetype plugin indent on
 " -------
 set laststatus=2 " Always show status line
 
+" -------------
+" Neocomplcache
+" -------------
+" Disable AutoComplPop.
+let g:acp_enableAtStartup = 0
+let g:neocomplcache_enable_at_startup = 1 " Use neocomplcache
+let g:neocomplcache_enable_smart_case = 1 " Use smartcase
+
+let g:neocomplcache_min_syntax_length = 3 " Set minimum syntax keyword length.
+let g:neocomplcache_lock_buffer_name_pattern = '\*ku\*'
+
+
 " ------
 " Search
 " ------
