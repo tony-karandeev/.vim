@@ -27,6 +27,8 @@ let g:neocomplcache_enable_smart_case = 1 " Use smartcase
 let g:neocomplcache_min_syntax_length = 3 " Set minimum syntax keyword length.
 let g:neocomplcache_lock_buffer_name_pattern = '\*ku\*'
 
+" Disable enabling visual mode on mouse interaction
+set mouse-=a
 
 " ------
 " Search
