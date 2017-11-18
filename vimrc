@@ -5,11 +5,6 @@ filetype off " Pathogen needs to run before plugin indent on
 execute pathogen#infect()
 filetype plugin indent on
 
-" --------
-" NERDTree
-" --------
-"autocmd vimenter * NERDTree " Start NERDTree automatically when Vim starts
-
 " -------
 " Airline
 " -------
@@ -56,6 +51,8 @@ set shiftwidth=4
 " ----------
 " Navigation
 " ----------
+set number
+set relativenumber
 set scrolloff=5
 set grepprg=grep\ -r\ --exclude=tags\ -n\ $*\ /dev/null
 map <F7> :cprev<CR>zz
@@ -81,3 +78,16 @@ set undofile
 set undodir=~/.vim/undodir
 
 nnoremap gr :grep -r '\b<cword>\b' .<CR>
+
+" ------
+" Splits
+" ------
+
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+set splitbelow
+set splitright
+
