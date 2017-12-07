@@ -5,6 +5,12 @@ filetype off " Pathogen needs to run before plugin indent on
 execute pathogen#infect()
 filetype plugin indent on
 
+" --------
+" Ack / Ag
+" --------
+
+let g:ackprg = 'ag --vimgrep'
+
 " -------
 " Airline
 " -------
