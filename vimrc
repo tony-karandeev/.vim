@@ -73,6 +73,12 @@ autocmd BufReadPost *
 \ endif |       
 \ endif
 
+" ---------------------------
+" Mappings for tab navigation
+" --------------------------
+nnoremap H gT
+nnoremap L gt
+
 set wildmenu
 set wildmode=list:longest
 
