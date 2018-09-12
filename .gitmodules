@@ -31,3 +31,6 @@
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby
+[submodule "bundle/space-vim-dark-theme"]
+	path = bundle/space-vim-dark-theme
+	url = git@github.com:liuchengxu/space-vim-dark.git
