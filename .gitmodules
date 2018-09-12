@@ -34,3 +34,6 @@
 [submodule "bundle/space-vim-dark-theme"]
 	path = bundle/space-vim-dark-theme
 	url = git@github.com:liuchengxu/space-vim-dark.git
+[submodule "bundle/vim-qmake"]
+	path = bundle/vim-qmake
+	url = git@github.com:tiamat18/vim-qmake.git
