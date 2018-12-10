@@ -3,12 +3,14 @@
 " -------------------
 set exrc
 
-" --------
-" Pathogen
-" --------
+" ---------------------------
+" Pathogen and other managers
+" ---------------------------
 filetype off " Pathogen needs to run before plugin indent on
 execute pathogen#infect()
 filetype plugin indent on
+
+call glaive#Install()
 
 " --------
 " Ack / Ag
