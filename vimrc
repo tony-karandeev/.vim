@@ -52,9 +52,7 @@ set hlsearch " Highlight search items
 set cursorline
 
 set background=dark
-colorscheme solarized
-"colorscheme space-vim-dark
-"let g:airline_theme='space-vim-dark'
+colorscheme dracula
 
 " -----------
 " Indentation

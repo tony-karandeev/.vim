@@ -37,3 +37,6 @@
 [submodule "bundle/vim-qmake"]
 	path = bundle/vim-qmake
 	url = git@github.com:tiamat18/vim-qmake.git
+[submodule "bundle/dracula-theme"]
+	path = bundle/dracula-theme
+	url = git@github.com:dracula/vim.git
