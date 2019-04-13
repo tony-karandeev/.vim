@@ -12,6 +12,8 @@ filetype plugin indent on
 
 call glaive#Install()
 
+set t_ut= " Workaround black line ends
+
 " --------
 " Ack / Ag
 " --------
