@@ -100,7 +100,7 @@ set tags=./tags;
 set undofile
 set undodir=~/.vim/undodir
 
-nnoremap gr :grep -r '\b<cword>\b' .<CR>
+nnoremap gr :Ack '\b<cword>\b' <CR>
 
 " ------
 " Splits
