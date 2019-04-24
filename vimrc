@@ -114,3 +114,7 @@ nnoremap <C-H> <C-W><C-H>
 set splitbelow
 set splitright
 
+command! -bar -range=% FixWSTabs <line1>,<line2>s/\t/    /ge | noh
+command! -bar -range=% FixWSTrailing <line1>,<line2>s/\s\+$//e | noh
+command! -bar -range=% FixWS <line1>,<line2>FixWSTabs | <line1>,<line2>FixWSTrailing
+
