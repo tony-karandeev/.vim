@@ -14,6 +14,14 @@ call glaive#Install()
 
 set t_ut= " Workaround black line ends
 
+" ------------------------
+" Cyrillic keyboar mapping
+" ------------------------
+set keymap=russian-jcukenwin
+set iminsert=0
+set imsearch=0
+highlight lCursor guifg=NONE guibg=Cyan
+
 " --------
 " Ack / Ag
 " --------
