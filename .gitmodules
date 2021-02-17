@@ -50,7 +50,7 @@
 	path = bundle/vim-glaive
 	url = git@github.com:google/vim-glaive
 [submodule "/home/tony/.vim/bundle/xmledit"]
-	path = /home/tony/.vim/bundle/xmledit
+	path = bundle/xmledit
 	url = https://github.com/sukima/xmledit.git
 [submodule "bundle/vim-abolish"]
 	path = bundle/vim-abolish
