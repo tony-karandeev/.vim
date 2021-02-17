@@ -48,6 +48,8 @@ let g:neocomplcache_lock_buffer_name_pattern = '\*ku\*'
 " Disable enabling visual mode on mouse interaction
 set mouse-=a
 
+set backspace=indent,eol,start
+
 " ------
 " Search
 " ------
