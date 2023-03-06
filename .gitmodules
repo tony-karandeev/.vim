@@ -21,7 +21,7 @@
 	url = https://github.com/Shougo/neocomplcache.vim.git
 [submodule "bundle/vim-swift"]
 	path = bundle/vim-swift
-	url = git://github.com/toyamarinyon/vim-swift.git
+	url = https://github.com/toyamarinyon/vim-swift.git
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
@@ -33,28 +33,28 @@
 	url = https://github.com/vim-ruby/vim-ruby
 [submodule "bundle/space-vim-dark-theme"]
 	path = bundle/space-vim-dark-theme
-	url = git@github.com:liuchengxu/space-vim-dark.git
+	url = https://github.com/liuchengxu/space-vim-dark.git
 [submodule "bundle/vim-qmake"]
 	path = bundle/vim-qmake
-	url = git@github.com:tiamat18/vim-qmake.git
+	url = https://github.com/tiamat18/vim-qmake.git
 [submodule "bundle/dracula-theme"]
 	path = bundle/dracula-theme
-	url = git@github.com:dracula/vim.git
+	url = https://github.com/dracula/vim.git
 [submodule "bundle/vim-maktaba"]
 	path = bundle/vim-maktaba
-	url = git@github.com:google/vim-maktaba
+	url = https://github.com/google/vim-maktaba
 [submodule "bundle/vim-codefmt"]
 	path = bundle/vim-codefmt
-	url = git@github.com:google/vim-codefmt
+	url = https://github.com/google/vim-codefmt
 [submodule "bundle/vim-glaive"]
 	path = bundle/vim-glaive
-	url = git@github.com:google/vim-glaive
+	url = https://github.com/google/vim-glaive
 [submodule "/home/tony/.vim/bundle/xmledit"]
 	path = bundle/xmledit
 	url = https://github.com/sukima/xmledit.git
 [submodule "bundle/vim-abolish"]
 	path = bundle/vim-abolish
-	url = git@github.com:tpope/vim-abolish
+	url = https://github.com/tpope/vim-abolish
 [submodule "bundle/vim-eunuch"]
 	path = bundle/vim-eunuch
-	url = git@github.com:tpope/vim-eunuch
+	url = https://github.com/tpope/vim-eunuch
